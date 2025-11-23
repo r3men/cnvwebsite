@@ -12,7 +12,7 @@ export default function Home() {
               CODE NAME VERITY
             </h1>
 
-            <p className="text-lg md:text-xl text-dossier-ink/80 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-dossier-ink/80 max-w-2xl mx-auto typewriter-animated">
               A deep dive into one of the greatest, most detailed historical fiction novels of the 21st century.
             </p>
           </div>
