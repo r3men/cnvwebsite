@@ -111,17 +111,16 @@ a:hover {
 .animate-fadeIn-delay-300 { animation-delay: 0.3s; }
 .animate-fadeIn-delay-400 { animation-delay: 0.4s; }
 
-/* Multi-line typewriter effect */
-.typewriter-animated-multiline {
-  overflow: hidden;                   /* hides text until typed */
-  white-space: pre-wrap;              /* preserves line breaks */
+.expand {
+  overflow: hidden;                  
+  white-space: pre-wrap;            
   display: block;
-  animation: typing-multiline 10s steps(150, end) forwards, step-end infinite;
+  animation: height-expand 10s steps(150, end) forwards, step-end infinite;
 }
 
-@keyframes typing-multiline {
+@keyframes height-expand {
   from { max-height: 0; }
-  to { max-height: 1000px; } /* make sure it's taller than your content */
+  to { max-height: 1000px; }
 }
 
 
