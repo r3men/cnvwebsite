@@ -117,7 +117,7 @@ a:hover {
   border-right: 3px solid var(--dossier-title); /* cursor */
   white-space: pre-wrap;              /* preserves line breaks */
   display: block;
-  animation: typing-multiline 8s steps(100, end) forwards, blinkCaret 0.75s step-end infinite;
+  animation: typing-multiline 10s steps(150, end) forwards, step-end infinite;
 }
 
 @keyframes typing-multiline {
@@ -125,9 +125,5 @@ a:hover {
   to { max-height: 1000px; } /* make sure it's taller than your content */
 }
 
-@keyframes blinkCaret {
-  0%, 100% { border-color: transparent; }
-  50% { border-color: var(--dossier-title); }
-}
 
 
