@@ -4,9 +4,6 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Code Name Verity",
   description: "Template from Vercel.",
-  icons: {
-    icon: "/favicon.png",
-  },
 };
 
 export default function RootLayout({
