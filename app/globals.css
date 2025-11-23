@@ -112,24 +112,23 @@ a:hover {
 .animate-fadeIn-delay-400 { animation-delay: 0.4s; }
 
 /* Typewriter effect animation */
+.typewriter-animated {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid var(--dossier-title); /* Cursor */
+  /* Width is now controlled dynamically in style */
+}
+
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { width: 0; }
+  to { width: 100%; } /* JS sets width in ch units */
 }
 
 @keyframes blinkCaret {
-  0%, 100% { border-color: transparent }
-  50% { border-color: var(--dossier-title) }
+  0%, 100% { border-color: transparent; }
+  50% { border-color: var(--dossier-title); }
 }
-
-.typewriter-animated {
-  display: inline-block;
-  overflow: hidden;          /* Ensures text is hidden until typed */
-  white-space: nowrap;        /* Keep text on one line */
-  border-right: 3px solid var(--dossier-title); /* The “cursor” */
-  animation: typing 3s steps(30, end) forwards, blinkCaret 0.75s step-end infinite;
-}
-
 
 
 
