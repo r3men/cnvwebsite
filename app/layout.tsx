@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Learn Cybersecurity",
+  title: "Code Name Verity",
   description: "Template from Vercel.",
   icons: {
     icon: "/favicon.png",
