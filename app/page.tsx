@@ -14,15 +14,6 @@ export default function Home() {
             A deep dive into one of the greatest, most detailed historical fiction novels of the 21st century.
           </p>
         </div>
-
-        <div className="flex flex-col sm:flex-row gap-4">
-          <Link
-            href="/learn"
-            className="dossier-btn"
-          >
-            Start Learning
-          </Link>
-        </div>
       </main>
     </div>
   );
