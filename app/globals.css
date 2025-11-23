@@ -111,22 +111,23 @@ a:hover {
 .animate-fadeIn-delay-300 { animation-delay: 0.3s; }
 .animate-fadeIn-delay-400 { animation-delay: 0.4s; }
 
-/* Typewriter effect animation */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+/* Multi-line typewriter effect */
+.typewriter-animated-multiline {
+  overflow: hidden;                   /* hides text until typed */
+  border-right: 3px solid var(--dossier-title); /* cursor */
+  white-space: pre-wrap;              /* preserves line breaks */
+  display: block;
+  animation: typing-multiline 4s steps(80, end) forwards, blinkCaret 0.75s step-end infinite;
+}
+
+@keyframes typing-multiline {
+  from { max-height: 0; }
+  to { max-height: 1000px; } /* make sure it's taller than your content */
 }
 
 @keyframes blinkCaret {
-  0%, 100% { border-color: transparent }
-  50% { border-color: var(--dossier-title) }
+  0%, 100% { border-color: transparent; }
+  50% { border-color: var(--dossier-title); }
 }
 
-.typewriter-animated {
-  overflow: hidden;          /* Ensures text is hidden until typed */
-  white-space: nowrap;        /* Keep text on one line */
-  border-right: 3px solid var(--dossier-title); /* The “cursor” */
-  width: 0;
-  animation: typing 3s steps(30, end) forwards, blinkCaret 0.75s step-end infinite;
-}
 
