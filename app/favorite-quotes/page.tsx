@@ -9,7 +9,7 @@ export default function FavoriteQuotes() {
         
         {/* Header Section */}
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-10 text-center space-y-6 opacity-0 animate-fadeIn">
-          <h1 className="text-4xl md:text-6xl font-bold text-dossier-title typewriter-animated">
+          <h1 className="text-4xl md:text-6xl font-bold text-dossier-title inline-block typewriter-animated">
             Favorite Quotes
           </h1>
 
