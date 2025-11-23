@@ -11,7 +11,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg md:text-xl text-dossier-ink/80 max-w-xl mx-auto">
-            A dossier-style deep dive into Elizabeth E. Wein’s extraordinary WWII novel of courage, loyalty, and sacrifice.
+            A deep dive into one of the greatest, most detailed historical fiction novels of the 21st century.
           </p>
         </div>
 
