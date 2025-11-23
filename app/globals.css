@@ -57,3 +57,65 @@ a {
 a:hover {
   color: var(--accent-blue-light);
 }
+
+/* ——— Dossier Theme Add-ons ——— */
+
+:root {
+  --dossier-paper: #f6f1e6;
+  --dossier-ink: #1a1a17;
+  --dossier-title: #0c0c0c;
+  --dossier-stain: rgba(80, 40, 30, 0.28);
+}
+
+/* Paper-style background using your uploaded image */
+.bg-dossier-paper {
+  background-image: url("/mnt/data/f581a03c-6b04-4101-a3a7-8d3d328457da.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Slightly yellowed dossier panel */
+.bg-dossier-panel {
+  background: rgba(255, 248, 233, 0.86);
+  backdrop-filter: blur(1px);
+}
+
+/* Ink + typewriter font feel */
+.text-dossier-ink {
+  color: var(--dossier-ink);
+}
+.text-dossier-title {
+  color: var(--dossier-title);
+}
+.font-serif {
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+/* Buttons that look like dossier file tabs */
+.dossier-btn {
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  border: 1px solid var(--dossier-stain);
+  background: rgba(255, 255, 245, 0.75);
+  color: var(--dossier-ink);
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+.dossier-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 245, 0.9);
+}
+
+/* Typewriter effect without animation */
+.typewriter {
+  font-family: "Courier New", monospace;
+  letter-spacing: 0.04em;
+}
+
+/* Panel border texture */
+.border-dossier-stain {
+  border-color: var(--dossier-stain);
+}
+
