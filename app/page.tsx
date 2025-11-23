@@ -22,13 +22,6 @@ export default function Home() {
           >
             Start Learning
           </Link>
-
-          <Link
-            href="/about"
-            className="dossier-btn"
-          >
-            Learn More
-          </Link>
         </div>
       </main>
     </div>
