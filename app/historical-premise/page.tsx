@@ -8,7 +8,7 @@ export default function HistoricalPremise() {
       <main className="flex flex-col items-center flex-1 px-6 py-20 space-y-10 w-[90%] md:w-[70%] lg:w-[55%] mx-auto">
 
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-10 text-center space-y-6 opacity-0 animate-fadeIn">
-          <h1 className="inline-block text-4xl md:text-6xl font-bold text-dossier-title typewriter-animated">
+          <h1 className="text-4xl md:text-6xl font-bold text-dossier-title inline-block typewriter-animated">
             Historical Premise
           </h1>
           <p className="text-lg md:text-xl text-dossier-ink">
