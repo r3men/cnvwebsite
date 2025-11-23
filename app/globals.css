@@ -114,7 +114,6 @@ a:hover {
 /* Multi-line typewriter effect */
 .typewriter-animated-multiline {
   overflow: hidden;                   /* hides text until typed */
-  border-right: 3px solid var(--dossier-title); /* cursor */
   white-space: pre-wrap;              /* preserves line breaks */
   display: block;
   animation: typing-multiline 10s steps(150, end) forwards, step-end infinite;
