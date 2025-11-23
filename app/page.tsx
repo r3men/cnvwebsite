@@ -12,7 +12,7 @@ export default function Home() {
               CODE NAME VERITY
             </h1>
 
-            <p className="text-lg md:text-xl text-dossier-ink/80 max-w-2xl mx-auto typewriter-animated-multiline">
+            <p className="text-lg md:text-xl text-dossier-ink/80 max-w-2xl mx-auto typewriter-animated-multiline" style={{ "--delay": "3s" } as React.CSSProperties}>
               A deep dive into one of the greatest, most detailed historical fiction novels of the 21st century.
             </p>
           </div>
