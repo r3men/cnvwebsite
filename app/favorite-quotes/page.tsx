@@ -7,7 +7,6 @@ export default function FavoriteQuotes() {
 
       <main className="flex flex-col items-center flex-1 px-6 py-20 space-y-10 w-[90%] md:w-[70%] lg:w-[55%] mx-auto">
         
-        {/* Header Section */}
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-10 text-center space-y-6 opacity-0 animate-fadeIn">
           <h1 className="text-4xl md:text-6xl font-bold text-dossier-title inline-block typewriter-animated">
             Favorite Quotes
@@ -18,7 +17,6 @@ export default function FavoriteQuotes() {
           </p>
         </div>
 
-        {/* Quote Section 1 */}
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-8 space-y-4 opacity-0 animate-fadeIn animate-fadeIn-delay-100">
           <p className="text-lg md:text-xl text-dossier-ink">
             <strong>Part I, Verity, pg. 201</strong>
@@ -33,7 +31,6 @@ export default function FavoriteQuotes() {
 
         <hr className="border-dossier-stain opacity-30 w-full" />
 
-        {/* Quote Section 2 */}
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-8 space-y-4 opacity-0 animate-fadeIn animate-fadeIn-delay-200">
           <p className="text-lg md:text-xl text-dossier-ink">
             <strong>Part II, Kittyhawk, pg. 228</strong>
@@ -48,7 +45,6 @@ export default function FavoriteQuotes() {
 
         <hr className="border-dossier-stain opacity-30 w-full" />
 
-        {/* Quote Section 3 */}
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-8 space-y-4 opacity-0 animate-fadeIn animate-fadeIn-delay-300">
           <p className="text-lg md:text-xl text-dossier-ink">
             <strong>Part II, Kittyhawk, pg. 268</strong>
@@ -63,7 +59,6 @@ export default function FavoriteQuotes() {
 
         <hr className="border-dossier-stain opacity-30 w-full" />
 
-        {/* Quote Section 4 */}
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-8 space-y-4 opacity-0 animate-fadeIn animate-fadeIn-delay-400">
           <p className="text-lg md:text-xl text-dossier-ink">
             <strong>Part II, Kittyhawk, pg. 285</strong>
