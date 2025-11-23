@@ -117,7 +117,7 @@ a:hover {
   border-right: 3px solid var(--dossier-title); /* cursor */
   white-space: pre-wrap;              /* preserves line breaks */
   display: block;
-  animation: typing-multiline 4s steps(80, end) forwards, blinkCaret 0.75s step-end infinite;
+  animation: typing-multiline 8s steps(100, end) forwards, blinkCaret 0.75s step-end infinite;
 }
 
 @keyframes typing-multiline {
