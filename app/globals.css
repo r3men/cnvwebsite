@@ -127,7 +127,6 @@ a:hover {
   overflow: hidden;          /* Ensures text is hidden until typed */
   white-space: nowrap;        /* Keep text on one line */
   border-right: 3px solid var(--dossier-title); /* The “cursor” */
-  width: 0;
   animation: typing 3s steps(30, end) forwards, blinkCaret 0.75s step-end infinite;
 }
 
