@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Typewriter from "../components/Typewriter";
 
 export default function HistoricalPremise() {
   return (
@@ -8,9 +9,10 @@ export default function HistoricalPremise() {
       <main className="flex flex-col items-center flex-1 px-6 py-20 space-y-10 w-[90%] md:w-[70%] lg:w-[55%] mx-auto">
 
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-10 text-center space-y-6 opacity-0 animate-fadeIn">
-          <h1 className="text-4xl md:text-6xl font-bold text-dossier-title inline-block typewriter-animated">
-            Historical Premise
-          </h1>
+          <Typewriter
+            text="Historical Premise"
+            className="text-4xl md:text-6xl font-bold text-dossier-title"
+          />
           <p className="text-lg md:text-xl text-dossier-ink">
             In order to provide a historically accurate depiction of World War II, Wein utilized many historical terms that may have been a bit overwhelming to grasp for the reader. With that being said, here is some historical context to several of the key terms that appear most frequently throughout the novel.
           </p>
