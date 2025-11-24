@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Typewriter from "../components/Typewriter";
 
 export default function PersonalReview() {
   return (
@@ -8,9 +9,10 @@ export default function PersonalReview() {
       <main className="flex flex-col items-center flex-1 px-6 py-20 space-y-10 w-[90%] md:w-[70%] lg:w-[55%] mx-auto">
         
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-10 text-center space-y-6 opacity-0 animate-fadeIn">
-          <h1 className="text-4xl md:text-6xl font-bold text-dossier-title inline-block typewriter-animated">
-            Personal Review
-          </h1>
+          <Typewriter
+            text="Personal Review"
+            className="text-4xl md:text-6xl font-bold text-dossier-title"
+          />
           <p className="text-lg md:text-xl text-dossier-ink">
             After reading this novel, I am beyond shocked. Originally, I found myself getting lost into the immense detail & many acronyms that were introduced during Julie’s confession towards the beginning of the novel. It was so intimidating for me since I was unfamiliar with most of these terms and I continued to forget what they meant even after looking them up, simply because there were so many to remember.
           </p>
