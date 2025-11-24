@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Typewriter from "../components/Typewriter";
 
 export default function FavoriteQuotes() {
   return (
@@ -8,9 +9,10 @@ export default function FavoriteQuotes() {
       <main className="flex flex-col items-center flex-1 px-6 py-20 space-y-10 w-[90%] md:w-[70%] lg:w-[55%] mx-auto">
         
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-10 text-center space-y-6 opacity-0 animate-fadeIn">
-          <h1 className="text-4xl md:text-6xl font-bold text-dossier-title inline-block typewriter-animated">
-            Favorite Quotes
-          </h1>
+          <Typewriter
+            text="Favorite Quotes"
+            className="text-4xl md:text-6xl font-bold text-dossier-title"
+          />
 
           <p className="text-lg md:text-xl text-dossier-ink">
             Let us take a look at some of my absolute favorite quotes from the novel which in some way or another, closely illustrate the powerful message that Wein intended to elucidate:
