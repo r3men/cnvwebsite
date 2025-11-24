@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Typewriter from "../components/Typewriter";
 
 export default function CharacterAnalysis() {
   return (
@@ -8,9 +9,10 @@ export default function CharacterAnalysis() {
       <main className="flex flex-col items-center flex-1 px-6 py-20 space-y-10 w-[90%] md:w-[70%] lg:w-[55%] mx-auto">
         
         <div className="bg-dossier-panel border border-dossier-stain rounded-lg shadow-2xl p-10 text-center space-y-6 opacity-0 animate-fadeIn">
-          <h1 className="text-4xl md:text-6xl font-bold text-dossier-title inline-block typewriter-animated">
-            Character Analysis
-          </h1>
+          <Typewriter
+            text="Character Analysis"
+            className="text-4xl md:text-6xl font-bold text-dossier-title"
+          />
           <p className="text-lg md:text-xl text-dossier-ink">
             With there being a multitude of characters within the novel, it can be quite difficult to keep track of each character, their motivations, personality, & traits. Here is an overview of the most prominent characters within the novel, as well as a brief analysis of each one.
           </p>
