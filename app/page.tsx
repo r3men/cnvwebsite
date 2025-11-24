@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Typewriter from "./components/Typewriter";
-
+// CHECK
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-dossier-ink font-serif flex flex-col">
