@@ -20,7 +20,7 @@ export default function Typewriter({
 
   useEffect(() => {
     if (ref.current) {
-      setTextLength(ref.current.textContent?.length || 0);
+      setTextLength(text.length);
     }
   }, [text]);
 
