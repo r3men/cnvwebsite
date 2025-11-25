@@ -32,6 +32,7 @@ export default function Typewriter({
         animation: `typing ${typingDuration}s steps(${textLength}, end) forwards, blinkCaret 0.75s step-end infinite`,
         width: `${textLength}ch`,
         borderRightColor: cursorColor,
+        ["--final-width" as any]: `${textLength}ch`,
       }}
     >
       {text}
