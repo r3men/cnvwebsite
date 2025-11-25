@@ -29,7 +29,7 @@ export default function Typewriter({
       ref={ref}
       className={`inline-block typewriter-animated ${className}`}
       style={{
-        animation: `typing ${typingDuration}s steps(${textLength}, end) forwards, blinkCaret 0.75s step-end infinite`,
+        animation: `typing ${typingDuration}s steps(${textLength}, end) forwards`,
         width: `${textLength}ch`,
         borderRightColor: cursorColor,
         ["--final-width" as any]: `${textLength}ch`,
