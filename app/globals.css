@@ -116,19 +116,17 @@ a:hover {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid var(--dossier-title); /* Cursor */
-  /* Width is now controlled dynamically in style */
+  border-right: 3px solid var(--dossier-title);
 }
 
 @keyframes typing {
   from { width: 0; }
-  to { width: 100%; } /* JS sets width in ch units */
+  to { width: var(--final-width); } /* Stop *exactly* at last character */
 }
 
 @keyframes blinkCaret {
   0%, 100% { border-color: transparent; }
   50% { border-color: var(--dossier-title); }
 }
-
 
 
