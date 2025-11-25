@@ -129,4 +129,11 @@ a:hover {
   50% { border-color: var(--dossier-title); }
 }
 
+@keyframes hideCaret {
+  to {
+    border-color: transparent;
+  }
+}
+
+
 
